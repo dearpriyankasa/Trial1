@@ -1,0 +1,12 @@
+{
+    "xml.fileAssociations": [
+        {
+            "systemId": "/home/priyanka/NativeScript/ScanBLE/schema/tns.xsd",
+            "pattern": "**/**/*.xml"
+        }
+    ],
+    "files.exclude": {
+        "schema": true
+    },
+    "workbench.colorCustomizations": {}
+}

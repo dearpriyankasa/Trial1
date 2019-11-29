@@ -1,0 +1,19 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded" xmlns:lv="nativescript-ui-listview">
+    <StackLayout col="0" orientation="vertical">
+        <Page.actionBar>
+            <ActionBar title="WIFI FOUND ARE:" icon="" class="action-bar">
+            </ActionBar>
+        </Page.actionBar>
+
+             <GridLayout rows="*">
+                <ListView items="{{ items }}" separatorColor="#90c3d4">
+                    <ListView.itemTemplate>
+                      <StackLayout col="0" orientation="vertical" class="padded-label">
+                          <Label text="{{ name }}" />
+                          <Label text="{{ ssid }}" />
+                      </StackLayout>
+                    </ListView.itemTemplate>
+                </ListView>
+              </GridLayout>
+    </StackLayout>
+</Page>
